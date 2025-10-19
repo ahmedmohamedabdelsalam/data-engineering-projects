@@ -78,7 +78,7 @@ tmdb_5000_credits.csv
 python main.py
 
 
-Step 6: Check the database
+## Step 6: Check the database
 
 After running the pipeline, a database file named movies.db will be created in your project folder.
 You can open it using DB Browser for SQLite or any other database viewer.
