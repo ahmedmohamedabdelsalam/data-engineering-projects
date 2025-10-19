@@ -54,18 +54,18 @@ tmdb_movies_pipeline/
 git clone https://github.com/ahmedmohamedabdelsalam/tmdb_movies_pipeline.git
 cd tmdb_movies_pipeline
 
-Step 2: Create and activate a virtual environment
-
+# Step 2: Create and activate a virtual environment
 python -m venv venv
 venv\Scripts\activate     # On Windows
 # OR
 source venv/bin/activate  # On macOS/Linux
 
-Step 3: Install dependencies
+
+## Step 3: Install dependencies
 
 pip install -r requirements.txt
 
-Step 4: Download the datasets
+## Step 4: Download the datasets
 
 ⚠️ The TMDB datasets are too large to upload to GitHub.
 Please download the following files manually from Kaggle and place them inside your project folder:
@@ -74,24 +74,19 @@ tmdb_5000_movies.csv
 
 tmdb_5000_credits.csv
 
-Step 5: Run the pipeline
-
+## Step 5: Run the pipeline
 python main.py
+
 
 Step 6: Check the database
 
 After running the pipeline, a database file named movies.db will be created in your project folder.
 You can open it using DB Browser for SQLite or any other database viewer.
 
-Expected Output
-
-A clean and merged dataset stored in movies.db
-
-Log messages in the terminal confirming successful load, transform, and insert operations
-
-Reusable and modular code ready for scaling or cloud deployment
-
-Dataset
+## Expected Output
+- A clean and merged dataset stored in `movies.db`
+- Log messages confirming successful load, transform, and insert operations
+- Modular, reusable code ready for scaling or deployment
 
 The dataset is publicly available on Kaggle:
 🔗 [TMDB 5000 Movie Dataset](https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata)
