@@ -1,0 +1,15 @@
+# Ignore Python cache
+__pycache__/
+*.pyc
+
+# Ignore database files
+*.db
+
+# Ignore virtual environments
+venv/
+.env/
+
+# Ignore dataset backups
+*.zip
+*.rar
+*.tar.gz
