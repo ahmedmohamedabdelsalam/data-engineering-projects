@@ -5,17 +5,17 @@ This project demonstrates a simple **Data Engineering pipeline** using Python an
 The pipeline loads, cleans, transforms, and stores data from two TMDB datasets into a SQLite database.
 
 ## Project Objectives
-1. Load two datasets: `tmdb_5000_movies.csv` and `tmdb_5000_credits.csv`
-2. Clean and transform the data
-3. Merge the datasets into a unified structure
-4. Load the processed data into a SQLite database (`movies.db`)
-5. Ensure the pipeline is modular, reusable, and production-ready
+1. Load two datasets: `tmdb_5000_movies.csv` and `tmdb_5000_credits.csv`  
+2. Clean and transform the data  
+3. Merge the datasets into a unified structure  
+4. Load the processed data into a SQLite database (`movies.db`)  
+5. Ensure the pipeline is modular, reusable, and production-ready  
 
 ## Tech Stack
-- **Python 3.13+**
-- **Pandas**
-- **SQLite**
-- **OS / Logging** for file and process management
+- **Python 3.13+**  
+- **Pandas**  
+- **SQLite**  
+- **OS / Logging** for file and process management  
 
 ## Project Structure
 tmdb_movies_pipeline/
@@ -29,27 +29,30 @@ tmdb_movies_pipeline/
 ├── .gitignore # Ignored files and folders
 └── tmdb_5000_movies.csv # Dataset 1 (from Kaggle)
 └── tmdb_5000_credits.csv # Dataset 2 (from Kaggle)
+## How to Run Locally
 
 
 ## How to Run Locally
 
 ### Step 1: Clone the repository
-
+```bash
 git clone https://github.com/ahmedmohamedabdelsalam/tmdb_movies_pipeline.git
 cd tmdb_movies_pipeline
+
 Step 2: Create and activate a virtual environment
-bash
-Copy code
+
 python -m venv venv
 venv\Scripts\activate     # On Windows
 # OR
 source venv/bin/activate  # On macOS/Linux
+
 Step 3: Install dependencies
-bash
-Copy code
+
 pip install -r requirements.txt
+
 Step 4: Download the datasets
-The TMDB datasets are too large to upload to GitHub.
+
+⚠️ The TMDB datasets are too large to upload to GitHub.
 Please download the following files manually from Kaggle and place them inside your project folder:
 
 tmdb_5000_movies.csv
@@ -59,11 +62,14 @@ tmdb_5000_credits.csv
 Step 5: Run the pipeline
 
 python main.py
+
 Step 6: Check the database
+
 After running the pipeline, a database file named movies.db will be created in your project folder.
 You can open it using DB Browser for SQLite or any other database viewer.
 
 Expected Output
+
 A clean and merged dataset stored in movies.db
 
 Log messages in the terminal confirming successful load, transform, and insert operations
@@ -71,17 +77,24 @@ Log messages in the terminal confirming successful load, transform, and insert o
 Reusable and modular code ready for scaling or cloud deployment
 
 Dataset
+
 The dataset is publicly available on Kaggle:
-TMDB 5000 Movie Dataset
+🔗 [TMDB 5000 Movie Dataset](https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata)
+
 
 Author
+
 Ahmed Mohamed Abdelsalam
 AI and Data Engineer
 
 📍 Cairo, Egypt
 📧 ahmedabdelsalam.300200@gmail.com
-🔗 LinkedIn
-💻 GitHub
+
+🔗 [LinkedIn](https://www.linkedin.com/in/ahmed-abdelsalam-794286245/)  
+💻 [GitHub](https://github.com/ahmedmohamedabdelsalam)
+
 
 License
+
 This project is licensed under the MIT License – you are free to use, modify, and distribute it.
+
