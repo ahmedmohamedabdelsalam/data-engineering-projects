@@ -106,7 +106,7 @@ Build a dashboard in Power BI or Streamlit for visual insights
 Implement CI/CD pipeline for automated testing and deployment
 
 
-## Author
+Author
 
 Ahmed Mohamed Abdelsalam
 AI and Data Engineer
