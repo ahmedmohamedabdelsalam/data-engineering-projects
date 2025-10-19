@@ -91,6 +91,19 @@ You can open it using DB Browser for SQLite or any other database viewer.
 The dataset is publicly available on Kaggle:
 🔗 [TMDB 5000 Movie Dataset](https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata)
 
+## Future Improvements
+
+Replace SQLite with PostgreSQL or Snowflake for better scalability
+
+Integrate with Airflow or Prefect for pipeline orchestration
+
+Add Docker support for easier deployment
+
+Push processed data to AWS S3 or Google Cloud Storage
+
+Build a dashboard in Power BI or Streamlit for visual insights
+
+Implement CI/CD pipeline for automated testing and deployment
 
 Author
 
