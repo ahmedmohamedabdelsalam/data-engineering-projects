@@ -21,15 +21,22 @@ The pipeline loads, cleans, transforms, and stores data from two TMDB datasets i
 tmdb_movies_pipeline/
 │
 ├── main.py # Main pipeline script
+
 ├── process_data.py # Data cleaning and transformation logic
+
 ├── load_data.py # Handles loading of CSV files
+
 ├── database.py # Handles database creation and insertion
 │
 ├── requirements.txt # Required dependencies
+
 ├── README.md # Project documentation
+
 ├── .gitignore # Ignored files and folders
+
 │
 ├── tmdb_5000_movies.csv # Dataset 1 (from Kaggle)
+
 └── tmdb_5000_credits.csv # Dataset 2 (from Kaggle)
 
 ## How to Run Locally
