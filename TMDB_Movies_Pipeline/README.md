@@ -19,7 +19,9 @@ The pipeline loads, cleans, transforms, and stores data from two TMDB datasets i
 
 ## Project Structure
 tmdb_movies_pipeline/
+
 │
+
 ├── main.py # Main pipeline script
 
 ├── process_data.py # Data cleaning and transformation logic
@@ -35,6 +37,7 @@ tmdb_movies_pipeline/
 ├── .gitignore # Ignored files and folders
 
 │
+
 ├── tmdb_5000_movies.csv # Dataset 1 (from Kaggle)
 
 └── tmdb_5000_credits.csv # Dataset 2 (from Kaggle)
