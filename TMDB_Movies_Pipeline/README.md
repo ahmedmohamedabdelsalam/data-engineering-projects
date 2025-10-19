@@ -29,7 +29,9 @@ tmdb_movies_pipeline/
 ├── load_data.py # Handles loading of CSV files
 
 ├── database.py # Handles database creation and insertion
+
 │
+
 ├── requirements.txt # Required dependencies
 
 ├── README.md # Project documentation
